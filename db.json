@@ -1,0 +1,82 @@
+{
+  "estacionamento": [
+    {
+      "id": 1,
+      "nomeEstacionamento": "Estacionamento Dias",
+      "logoEstacionamento": "https://cdn.pixabay.com/photo/2018/03/22/10/55/car-dealership-3250008_960_720.jpg",
+      "vagasTotais": 100,
+      "vagasDisponiveis": 80,
+      "aceitaCarro": "true",
+      "aceitaMoto": "true",
+      "aberto": "true",
+      "funcionamento": [
+        {
+          "segunda": "6h - 22h30",
+          "terça": "6h - 22h30",
+          "quarta": "6h - 22h30",
+          "quinta": "6h - 22h30",
+          "sexta": "6h - 22h30",
+          "sabado": "7h - 14h00",
+          "domingo": "fechado"
+        }
+      ],
+      "preco": [{"meiaHora": "2,00", "umaHora": "3,50", "duasHora": "5,00"}],
+      "meiosPagamento": [
+        {
+          "dinheiro": "true",
+          "cartãoDebito": "true",
+          "cartãoCredito": "true",
+          "voucher": "false"
+        }
+      ],
+      "endereco": [
+        {
+          "rua": "Jatobá",
+          "numero": "192",
+          "bairro": "Vila Queiroz",
+          "latitude": "-22.553318",
+          "longitude": "-47.398143"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nomeEstacionamento": "SF PARK",
+      "logoEstacionamento": "https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2011%2F01%2F15%2F17%2FWDL-Logo-557_996_032459216_2053072051.jpg",
+      "vagasTotais": 90,
+      "vagasDisponiveis": 40,
+      "aceitaCarro": "true",
+      "aceitaMoto": "true",
+      "aberto": "true",
+      "funcionamento": [
+        {
+          "segunda": "7h - 18h00",
+          "terça": "7h - 18h00",
+          "quarta": "7h - 18h00",
+          "quinta": "7h - 18h00",
+          "sexta": "7h - 18h00",
+          "sabado": "7h - 14h00",
+          "domingo": "fechado"
+        }
+      ],
+      "preco": [{"meiaHora": "2,00", "umaHora": "3,50", "duasHora": "4,00"}],
+      "meiosPagamento": [
+        {
+          "dinheiro": "true",
+          "cartãoDebito": "true",
+          "cartãoCredito": "true",
+          "voucher": "true"
+        }
+      ],
+      "endereco": [
+        {
+          "rua": "Av. Laranjeiras",
+          "numero": "467",
+          "bairro": "Vila Eliza Fumagalli",
+          "latitude": "-22.553674",
+          "longitude": "-47.395822"
+        }
+      ]
+    }
+  ]
+}
